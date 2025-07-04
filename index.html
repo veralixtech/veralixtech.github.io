@@ -18,14 +18,18 @@
         }
 
         :root {
-            --primary-blue: #04244A;
-            --primary-dark: #02172D;
-            --accent-cyan: #06b6d4;
-            --accent-dark: #0891b2;
-            --text-dark: #e2e8f0;
-            --text-light: #cbd5e1;
-            --bg-light: #0b1e35;
-            --white: #ffffff;
+              --primary-blue: #04244A;
+              --primary-dark: #02172D;
+              --accent-cyan: #06b6d4;
+              --accent-dark: #0891b2;
+            
+              /* Text colors with proper contrast */
+              --text-on-dark: #e2e8f0;   /* for dark backgrounds like #02172D */
+              --text-on-light: #0f172a;  /* for light backgrounds or white */
+            
+              --bg-light: #f8fafc;
+              --bg-dark: #0b1e35;
+              --white: #ffffff;
             --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
             --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
